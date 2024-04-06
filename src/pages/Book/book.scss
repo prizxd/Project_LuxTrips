@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e2d3ce;
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bookPage {
+  background-image: url(/header.png);
+  padding-top: 50px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.item {
+  width: 540px;
+  height: 450px;
+  background-color: #ffff;
+  border-radius: 15px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.text {
+  width: 410px;
+  margin-left: 15%;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.req {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 254px;
+  margin-top: 20px;
+}
+
+.call {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  margin-top: 30px;
+}
+
+.email {
+  background-image: url(/form-img.png);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 25px;
+  height: 565px;
+  padding-top: 50px;
+  margin-top: 100px;
+}
+
+.all {
+  margin-left: 40px;
+}
+
+.marg {
+  margin-left: 40px;
+}
+
+.inspirit {
+  width: 520px;
+  color: #ffff;
+  font-weight: 200;
+  font-size: 60px;
+  text-align: left;
+  margin-left: 16%;
+}
+
+.sub {
+  border: none;
+  background-color: transparent;
+  width: 200px;
+  margin-left: 125px;
+  height: 55px;
+  margin-right: -325px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form {
+  display: inline-block;
+  width: 730px;
+  height: 55px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  margin-top: 80px;
+}
+
+.sign {
+  color: white;
+  font-weight: 200;
+  margin-right: 45%;
+  margin-top: 20px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: -220px;
+  color: black;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.footer {
+  background-image: url(/footer.png);
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.logoFoot {
+  height: 112px;
+}
+
+.footer nav {
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.callBack {
+  margin-top: -20px;
+}
+
+.lastItems {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 350px;
+  color: white;
+}
+
+.rights {
+  font-family: "Manrope", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
