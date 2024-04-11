@@ -150,6 +150,17 @@ export default function HomePage() {
           </div>
         </div>
         <img src="/bg_book with us.jpg" className="BgBookWithUS" />
+        <div className="center-mid-div">
+          <h3 className="div-3-h3">Book With Us</h3>
+          <div className="Cards-div-3">
+            <img src="/1supercars.jpg" alt="" />
+            <img src="/2hotels.jpg" alt="" />
+            <img src="/3villas.jpg" alt="" />
+            <img src="/4yacts.jpg" alt="" />
+            <img src="/5privatehelis.jpg" alt="" />
+            <img src="/6privatejets.png" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   );
