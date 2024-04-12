@@ -16,7 +16,7 @@ export default function HomePage() {
             <Link to="/" className="LuxuryPackages">
               Luxury packages
             </Link>
-            <Link to="/Boo" className="BookWithUs">
+            <Link to="/Book" className="BookWithUs">
               Book with us
             </Link>
             <Link to="/" className="WhyLuxTrips">
