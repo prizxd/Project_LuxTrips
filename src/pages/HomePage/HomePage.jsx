@@ -1,5 +1,6 @@
 import React from "react";
 import "./homePage.scss";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 export default function HomePage() {
   return (
     <div className="Main">
@@ -9,12 +10,24 @@ export default function HomePage() {
         <div className="navigation">
           <img src="/logo.svg" alt="" className="Logo" />
           <div className="Menu">
-            <div className="Home">Home</div>
-            <div className="LuxuryPackages">Luxury packages</div>
-            <div className="BookWithUs">Book with us</div>
-            <div className="WhyLuxTrips">Why Lux Trips</div>
-            <div className="Contact">Contact</div>
-            <div className="ClientArea">Client Area</div>
+            <Link to="/" className="Home">
+              Home
+            </Link>
+            <Link to="/" className="LuxuryPackages">
+              Luxury packages
+            </Link>
+            <Link to="/Book" className="BookWithUs">
+              Book with us
+            </Link>
+            <Link to="/" className="WhyLuxTrips">
+              Why Lux Trips
+            </Link>
+            <Link to="/" className="Contact">
+              Contact
+            </Link>
+            <Link to="/" className="ClientArea">
+              Client Area
+            </Link>
           </div>
           <button className="ButtonCallMe">CALL ON ME BACK</button>
         </div>
@@ -151,16 +164,23 @@ export default function HomePage() {
         </div>
         <img src="/bg_book with us.jpg" className="BgBookWithUS" />
         <div className="center-mid-div">
-          <h3 className="div-3-h3">Book With Us</h3>
+          <div className="wrapper-h3">
+            <h3 className="div-3-h3">Book With Us</h3>
+          </div>
           <div className="Cards-div-3">
-            <img src="/1supercars.jpg" alt="" />
-            <img src="/2hotels.jpg" alt="" />
-            <img src="/3villas.jpg" alt="" />
-            <img src="/4yacts.jpg" alt="" />
-            <img src="/5privatehelis.jpg" alt="" />
-            <img src="/6privatejets.png" alt="" />
+            <div className="left-cards-3">
+              <img src="/1supercars.jpg" alt="" />
+              <img src="/3villas.jpg" alt="" />
+              <img src="/5privatehelis.jpg" alt="" />
+            </div>
+            <div className="right-cards-3">
+              <img src="/2hotels.jpg" alt="" />
+              <img src="/4yacts.jpg" alt="" />
+              <img src="/6privatejets.png" alt="" />
+            </div>
           </div>
         </div>
+        <img src="/bg_whyluxtrip.jpg" alt="" className="BgBookWithUS" />
       </div>
     </div>
   );
