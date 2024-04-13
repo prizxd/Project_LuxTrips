@@ -1,0 +1,75 @@
+
+$border: 1px solid white;
+$padding: 20px;
+$radius: 7px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ContactPage {
+    background-image: url(/header.png);
+    padding-top: 50px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacth1 {
+    width: 500px;
+    margin-left: 34%;
+}
+
+.call-back {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 278px;
+    text-align: center;
+    height: 55px;
+    border-radius: 74px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.option {
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.extra {
+    margin-top: 20px;
+}
+
+.p-number {
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.same {
+    border: $border;
+    padding: $padding;
+    border-radius: $radius;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    width: 400px;
+}
+
+.map {
+    width: 880px;
+    margin-left: 21%;
+    margin-top: 50px;
+}
+
+.phone {
+    margin-right: 5%;
+}
