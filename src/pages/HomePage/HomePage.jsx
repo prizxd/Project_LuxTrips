@@ -22,7 +22,7 @@ export default function HomePage() {
             <Link to="/" className="WhyLuxTrips">
               Why Lux Trips
             </Link>
-            <Link to="/" className="Contact">
+            <Link to="/Contact" className="Contact">
               Contact
             </Link>
             <Link to="/" className="ClientArea">
