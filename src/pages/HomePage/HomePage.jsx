@@ -180,7 +180,86 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <img src="/bg_whyluxtrip.jpg" alt="" className="BgBookWithUS" />
+        <div className="whyluxtrip-wrapper">
+          <div className="Gradient" />
+          <img src="/bg_whyluxtrip.png" alt="" className="whyluxtrip" />
+        </div>
+        <div className="whyluxtrip-div">
+          <h2>Why LuxTrips</h2>
+          <p>
+            As Travel Designer, we know the ins and outs of travel from who to
+            work with, where to go, when to book, and which restaurant provides
+            the most authentic cuisine.
+          </p>
+        </div>
+        <div className="whyluxtrip-div2">
+          <h2>
+            Exclusive knowledge to provide the best of the best to clients
+          </h2>
+          <p>
+            Our area of expertise ranges from luxury resorts and villas/chalets
+            holiday bookings, private yacht and jet charters, to exclusive tours
+            and personalized journey planning.
+          </p>
+        </div>
+        <div className="whyluxtrip-div3">
+          <img src="/pin_4.png" alt="" />
+          <div className="rigth-div">
+            <h2>
+              We craft and plan unique itineraries tailored to customers’
+              interests and with strong attention to detail.
+            </h2>
+            <button>help me plan a trip</button>
+          </div>
+        </div>
+        <img className="clouds4" src="/clouds4.png"></img>
+        <div className="customise">
+          <h2>Customise your trip with us</h2>
+          <div className="f-part">
+            <img className="left-custom" src="/Group 619.svg" />
+            <div className="right-custom">
+              <div className="div-custom1">
+                <h3>Describe your dream trip</h3>
+                <p>
+                  Let us know what your perfect vacation is. Destinations,
+                  preferences, and personal interests.
+                </p>
+              </div>
+              <div className="div-custom2">
+                <h3>Get matched</h3>
+                <p>
+                  Our team will create perfect travel itinerary for you, based
+                  on your personalized needs and wishes.
+                </p>
+              </div>
+              <div className="div-custom3">
+                <h3>Book your vacation</h3>
+                <p>
+                  Confirm your trip only when you are completely satisfied with
+                  the proposed travel plan.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="button-p">
+            <button>Start a trip request</button>
+            <p>It’s Free! - no credit card required</p>
+          </div>
+        </div>
+        <div className="wrapper-img-bot">
+          <img src="/bg_strat_trip.png" alt="" className="bg_strat_trip" />
+          <div className="group-620-div">
+            <img src="/Group 620.png" alt="" className="Group_620" />
+            <div className="group-620-div-form">
+              <h2>Get weekly inspiration and expert advice</h2>
+              <p>Sign up for our Weekly Newsletter</p>
+              <div className="email-space">
+                <input type="text" placeholder="Enter address" />
+                <button>Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
