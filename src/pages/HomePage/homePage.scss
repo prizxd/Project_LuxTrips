@@ -18,7 +18,7 @@ button {
     background: #c4c4c4;
   }
 
-  .navigation {
+  .empty-div {
     padding: 10px 13px;
     display: inline-flex;
     flex-direction: row;
@@ -28,53 +28,6 @@ button {
     min-height: 80.56px;
     position: relative;
     z-index: 4;
-    .Menu {
-      display: inline-flex;
-      align-items: center;
-      justify-content: space-evenly;
-      column-gap: 50px;
-      min-width: 100px;
-      .Home,
-      .LuxuryPackages,
-      .BookWithUs,
-      .WhyLuxTrips,
-      .Contact,
-      .ClientArea {
-        min-width: 100px;
-        user-select: none;
-        color: black;
-        font-size: 24px;
-        font-family: "Forum";
-        font-weight: 400;
-        text-transform: uppercase;
-        letter-spacing: 0.64px;
-        word-wrap: break-word;
-        text-decoration: none;
-      }
-    }
-    .Logo {
-      width: 121px;
-      height: 63.56px;
-    }
-    .ButtonCallMe {
-      width: 250px;
-      height: 60.76px;
-      border: 1px solid #ffffff;
-      border-radius: 61px;
-      background: inherit;
-      padding: 11px 24px;
-      font-family: "Forum";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 22px !important;
-      line-height: 18px;
-
-      text-align: center;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-
-      color: #000000;
-    }
   }
   .Sky {
     width: 100%;

@@ -6,31 +6,7 @@ export default function HomePage() {
     <div className="Main">
       <div className="BgTop">
         <div className="BgMask"></div>
-
-        <div className="navigation">
-          <img src="/logo.svg" alt="" className="Logo" />
-          <div className="Menu">
-            <Link to="/" className="Home">
-              Home
-            </Link>
-            <Link to="/" className="LuxuryPackages">
-              Luxury packages
-            </Link>
-            <Link to="/Book" className="BookWithUs">
-              Book with us
-            </Link>
-            <Link to="/" className="WhyLuxTrips">
-              Why Lux Trips
-            </Link>
-            <Link to="/Contact" className="Contact">
-              Contact
-            </Link>
-            <Link to="/" className="ClientArea">
-              Client Area
-            </Link>
-          </div>
-          <button className="ButtonCallMe">CALL ON ME BACK</button>
-        </div>
+        <div className="empty-div"></div>
 
         <img className="Sky" src="/sky.png" />
         <img className="first" src="/1.png" />
