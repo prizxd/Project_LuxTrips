@@ -23,7 +23,7 @@
   width: 30%;
 }
 .empty {
-  background-image: url("../../assets/gradient.png");
+  background-image: url(../../assets/gradient.png);
   height: 500px;
   width: 100%;
   position: absolute;
@@ -47,7 +47,7 @@
   padding-bottom: 100px;
 }
 .main2 {
-  background-image: url("../../assets/bg_book with us.png");
+  // background-image: url(../../assets/bg_book_with_us.png);
   background-size: cover;
   margin-top: -2px;
   padding: 50px;

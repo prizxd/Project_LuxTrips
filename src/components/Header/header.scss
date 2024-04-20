@@ -1,9 +1,10 @@
 header {
-
   display: block;
   width: 100%;
   position: absolute;
+  z-index: 17;
   .navigation {
+    cursor: pointer;
     padding: 10px 13px;
     display: inline-flex;
     flex-direction: row;

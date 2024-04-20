@@ -16,7 +16,8 @@ export default function header() {
           <Link to="/Book" className="BookWithUs">
             Book with us
           </Link>
-          <Link to="/" className="WhyLuxTrips">
+          <Link to="/WhyLuxTrips" className="WhyLuxTrips">
+            {/*в процессе переноса*/}
             Why Lux Trips
           </Link>
           <Link to="/Contact" className="Contact">
