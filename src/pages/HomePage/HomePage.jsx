@@ -1,9 +1,8 @@
 import React from "react";
 import "./homePage.scss";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 export default function HomePage() {
   return (
-    <div className="Main">
+    <main>
       <div className="BgTop">
         <div className="BgMask"></div>
         <div className="empty-div"></div>
@@ -222,21 +221,20 @@ export default function HomePage() {
             <p>It’s Free! - no credit card required</p>
           </div>
         </div>
-        <div className="wrapper-img-bot">
-          <img src="/bg_strat_trip.png" alt="" className="bg_strat_trip" />
-          <div className="group-620-div">
-            <img src="/Group 620.png" alt="" className="Group_620" />
-            <div className="group-620-div-form">
-              <h2>Get weekly inspiration and expert advice</h2>
-              <p>Sign up for our Weekly Newsletter</p>
-              <div className="email-space">
-                <input type="text" placeholder="Enter address" />
-                <button>Subscribe</button>
-              </div>
+
+        <img src="/bg_strat_trip.png" alt="" className="bg_strat_trip" />
+        <div className="group-620-div">
+          <img src="/Group 620.png" alt="" className="Group_620" />
+          <div className="group-620-div-form">
+            <h2>Get weekly inspiration and expert advice</h2>
+            <p>Sign up for our Weekly Newsletter</p>
+            <div className="email-space">
+              <input type="text" placeholder="Enter address" />
+              <button>Subscribe</button>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

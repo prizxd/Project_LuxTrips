@@ -1,0 +1,70 @@
+footer {
+  display: flex !important;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  z-index: 17;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  .logo-div {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .logo {
+      user-select: none;
+      width: 200px;
+      position: relative;
+      z-index: 4;
+    }
+  }
+  .bg-footer {
+    width: 100%;
+    position: absolute;
+  }
+  .Menu {
+    position: relative;
+    z-index: 17;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    column-gap: 50px;
+    min-width: 100px;
+    .LuxuryPackages,
+    .BookWithUs,
+    .WhyLuxTrips,
+    .Contact,
+    .ClientArea {
+      user-select: none;
+      color: black;
+      font-size: 24px;
+      font-family: "Forum";
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.64px;
+      word-wrap: break-word;
+      text-decoration: none;
+    }
+  }
+  .ButtonCallMe {
+    width: 250px;
+    height: 60.76px;
+    border: 1px solid #ffffff;
+    border-radius: 61px;
+    background: inherit;
+    padding: 11px 24px;
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px !important;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+}
