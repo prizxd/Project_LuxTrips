@@ -3,11 +3,12 @@ footer {
   flex-direction: column;
   width: 100%;
   position: relative;
-  z-index: 17;
+  z-index: 1;
   bottom: 0;
   justify-content: center;
   align-items: center;
   height: 500px;
+  row-gap: 80px;
   .logo-div {
     display: inline-flex;
     flex-direction: row;
@@ -66,5 +67,11 @@ footer {
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #000000;
+  }
+  .footer-logo-center-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }

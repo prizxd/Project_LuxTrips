@@ -18,7 +18,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/WhyLuxTrips" element={<WhyLuxTrips />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );

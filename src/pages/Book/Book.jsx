@@ -4,10 +4,11 @@ export default function Book() {
   return (
     <main>
       <div className="bookPage">
-        <div className="BgMaskMid"></div>
         <img src="/header.png" alt="" className="header-img" />
-        {/* <div className="cards-div"></div> */}
+        <div className="empty-div"></div>
+
         <div className="center-mid-div">
+          <div className="BgMaskMid"></div>
           <div className="wrapper-h3">
             <h3 className="div-3-h3">Book With Us</h3>
           </div>
