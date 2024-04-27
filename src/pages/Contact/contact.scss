@@ -1,74 +1,192 @@
-$border: 1px solid white;
-$padding: 20px;
-$radius: 7px;
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .ContactPage {
-  background-image: url(/header.png);
-  padding-top: 50px;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  position: relative;
+  display: block;
+  .header-img {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+  }
 
-.contacth1 {
-  width: 500px;
-  margin-left: 34%;
-}
+  .empty-div {
+    padding: 10px 13px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+    min-height: 80.56px;
+    position: relative;
+    z-index: 4;
+  }
 
-.call-back {
-  background-color: black;
-  color: white;
-  border: none;
-  width: 278px;
-  text-align: center;
-  height: 55px;
-  border-radius: 74px;
-  font-size: 20px;
-  font-weight: 100;
-}
+  .contact-h1-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    .contact-h1 {
+      width: 539px;
+      font-family: "Forum";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 60px;
+      line-height: 58px;
+      text-align: center;
+      color: #0c0b10;
+      position: relative;
+      z-index: 12;
+    }
+  }
 
-.option {
-  font-weight: 100;
-  margin-bottom: 20px;
-}
+  .contacts {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+    .phone {
+      .p-number {
+        font-family: "Forum";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #0c0b10;
+        position: relative;
+        z-index: 2;
+      }
+      .call-back {
+        background: #0c0b10;
+        border-radius: 74px;
+        font-family: "Forum";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        border: 0;
+        padding: 15px 58px 13px;
+        color: #ffffff;
+        position: relative;
+        z-index: 2;
+      }
 
-.extra {
-  margin-top: 20px;
-}
+      .option {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 179.8%;
+        text-align: center;
+        color: #000000;
+        position: relative;
+        z-index: 2;
+      }
 
-.p-number {
-  font-weight: 200;
-  font-size: 30px;
-}
+      .or-option {
+        font-family: "Forum";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #0c0b10;
+        position: relative;
+        z-index: 2;
+      }
+    }
 
-.contacts {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  text-align: center;
-}
+    .address {
+      .address-h4 {
+        width: 61px;
+        height: 29px;
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 179.8%;
+        text-align: center;
+        color: #000000;
+      }
 
-.same {
-  border: $border;
-  padding: $padding;
-  border-radius: $radius;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(8px);
-  width: 400px;
-}
+      .address-h2 {
+        width: 319px;
+        height: 88px;
+        font-family: "Forum";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        color: #0c0b10;
+      }
 
-.map {
-  width: 880px;
-  margin-left: 21%;
-  margin-top: 50px;
-}
+      .email {
+        width: 40px;
+        height: 29px;
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 179.8%;
+        text-align: center;
+        color: #000000;
+      }
 
-.phone {
-  margin-right: 5%;
+      .email-address {
+        width: 235px;
+        height: 24px;
+        font-family: "Forum";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 101.2%;
+        text-align: center;
+        color: #000000;
+      }
+    }
+  }
+
+  .same {
+    border: 1px solid white;
+    padding: 25px 112px 53px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    width: 400px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .map-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .map {
+    width: 880px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 7;
+  }
+  .BgMaskMid {
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #e2d3ce;
+  }
 }

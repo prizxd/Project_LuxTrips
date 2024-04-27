@@ -9,7 +9,7 @@
     "firebase": "firebase deploy",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "git-init-commit": "git init && git add . && git commit -m 'rework_book'"
+    "git-init-commit": "git init && git add . && git commit -m 'rework_contact'"
   },
   "dependencies": {
     "antd": "^5.14.2",
