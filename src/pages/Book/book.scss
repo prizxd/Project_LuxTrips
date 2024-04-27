@@ -77,7 +77,7 @@
           z-index: 18;
           width: 540px;
           row-gap: 30px;
-          padding: 0 65px 50px 65px;
+
           .card-p-button {
             display: flex;
             align-items: center;
@@ -86,6 +86,7 @@
             position: relative;
             row-gap: 25px;
             z-index: 18;
+            padding: 0 65px 50px 65px;
             p {
               position: relative;
               z-index: 19;
