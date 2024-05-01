@@ -24,14 +24,13 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 99%;
+    width: 90%;
     min-height: 80.56px;
     position: relative;
     z-index: 4;
   }
   .Sky {
     width: 100%;
-    height: 100%;
     left: 0;
     top: 0;
     position: absolute;
@@ -243,7 +242,7 @@ button {
   .BgMaskMid {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 110%;
     left: 0;
     top: 0;
     position: absolute;
@@ -598,152 +597,165 @@ button {
     top: -400px;
     z-index: 10;
   }
-
-  .customise {
+  .customise-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    flex-direction: column;
-    top: -1700px;
-    gap: 68px;
-    z-index: 17;
-    h2 {
-      width: 403px;
-      height: 116px;
-      font-family: "Forum";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 60px;
-      line-height: 58px;
-      text-align: center;
-      color: #0c0b10;
-      position: relative;
-      z-index: 15;
-    }
-    .button-p {
+    width: 100%;
+    height: 0;
+    .customise {
       display: flex;
       align-items: center;
       justify-content: center;
+      position: relative;
       flex-direction: column;
-      button {
+      top: -1220px;
+      gap: 68px;
+      z-index: 17;
+      h2 {
+        width: 403px;
+        height: 116px;
         font-family: "Forum";
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
-        line-height: 26px;
+        font-size: 60px;
+        line-height: 58px;
         text-align: center;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        color: #ffffff;
-        width: 540px;
-        height: 55px;
-        background: #0c0b10;
-        border-radius: 74px;
-        border: 0;
-      }
-      p {
-        height: 29px;
-        font-family: "Manrope";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 179.8%;
         color: #0c0b10;
-        margin-top: 20px;
+        position: relative;
+        z-index: 15;
       }
-    }
-    .f-part {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 75px;
-      .right-custom {
+      .button-p {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 120px;
         flex-direction: column;
-        .div-custom1 {
-          h3 {
-            width: 253px;
-            height: 75px;
-            font-family: "Forum";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 98.5%;
-            color: #0c0b10;
-          }
-          p {
-            width: 321px;
-            height: 103px;
-            font-family: "Manrope";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 179.8%;
-            color: #000000;
-          }
+        button {
+          font-family: "Forum";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 26px;
+          text-align: center;
+          letter-spacing: 0.04em;
+          text-transform: uppercase;
+          color: #ffffff;
+          width: 540px;
+          height: 55px;
+          background: #0c0b10;
+          border-radius: 74px;
+          border: 0;
         }
-        .div-custom2 {
-          h3 {
-            width: 290px;
-            height: 40px;
-            font-family: "Forum";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 98.5%;
-
-            color: #0c0b10;
-          }
-          p {
-            width: 321px;
-            height: 103px;
-            font-family: "Manrope";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 179.8%;
-            color: #000000;
-          }
+        p {
+          height: 29px;
+          font-family: "Manrope";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 179.8%;
+          color: #0c0b10;
+          margin-top: 20px;
         }
-        .div-custom3 {
-          h3 {
-            width: 253px;
-            height: 75px;
-            font-family: "Forum";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 98.5%;
-
-            color: #0c0b10;
+      }
+      .f-part {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 75px;
+        .right-custom {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 120px;
+          flex-direction: column;
+          .div-custom1 {
+            h3 {
+              width: 253px;
+              height: 75px;
+              font-family: "Forum";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 36px;
+              line-height: 98.5%;
+              color: #0c0b10;
+            }
+            p {
+              width: 321px;
+              height: 103px;
+              font-family: "Manrope";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 179.8%;
+              color: #000000;
+            }
           }
-          p {
-            width: 321px;
-            height: 109.23px;
-            font-family: "Manrope";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 179.8%;
-            color: #000000;
+          .div-custom2 {
+            h3 {
+              width: 290px;
+              height: 40px;
+              font-family: "Forum";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 36px;
+              line-height: 98.5%;
+
+              color: #0c0b10;
+            }
+            p {
+              width: 321px;
+              height: 103px;
+              font-family: "Manrope";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 179.8%;
+              color: #000000;
+            }
+          }
+          .div-custom3 {
+            h3 {
+              width: 253px;
+              height: 75px;
+              font-family: "Forum";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 36px;
+              line-height: 98.5%;
+
+              color: #0c0b10;
+            }
+            p {
+              width: 321px;
+              height: 109.23px;
+              font-family: "Manrope";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 179.8%;
+              color: #000000;
+            }
           }
         }
       }
     }
   }
-
   .bg_strat_trip {
     width: 100%;
     position: absolute;
-    bottom: 1050px;
+    bottom: 10px;
   }
-  .Group_620 {
+  .bg-wrapper {
+    width: 100%;
     position: relative;
-    z-index: 16;
+    bottom: -100px;
+    height: 0;
+    margin-bottom: 550px;
+    .Group_620 {
+      position: relative;
+      z-index: 16;
+    }
   }
 
   .group-620-div {
@@ -752,7 +764,8 @@ button {
     justify-content: center;
     position: relative;
     z-index: 16;
-    top: -730px;
+    top: -400px;
+
     .group-620-div-form {
       display: flex;
       align-items: flex-start;
@@ -792,7 +805,6 @@ button {
           backdrop-filter: blur(10px);
           border-radius: 95px;
           width: 460px;
-          height: 45px;
           font-family: "Manrope";
           font-style: normal;
           font-weight: 400;
@@ -800,6 +812,10 @@ button {
           line-height: 179.8%;
           color: #0c0b10;
           margin: 0;
+          outline: none;
+        }
+        input:hover {
+          outline: none;
         }
         input::placeholder {
           font-family: "Manrope";
@@ -811,7 +827,8 @@ button {
         }
         button {
           position: relative;
-          right: 40px;
+          right: 46px;
+          height: 56.3px;
           border: 0;
           padding: 14px 108px 12px;
           background: #ffffff;
@@ -825,7 +842,6 @@ button {
           letter-spacing: 0.04em;
           text-transform: uppercase;
           color: #0c0b10;
-          height: 45px;
         }
       }
     }

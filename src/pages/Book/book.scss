@@ -19,7 +19,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 99%;
+    width: 90%;
     min-height: 80.56px;
     position: relative;
     z-index: 4;
@@ -169,7 +169,6 @@
           backdrop-filter: blur(10px);
           border-radius: 95px;
           width: 460px;
-          height: 45px;
           font-family: "Manrope";
           font-style: normal;
           font-weight: 400;
@@ -177,6 +176,10 @@
           line-height: 179.8%;
           color: #0c0b10;
           margin: 0;
+          outline: none;
+        }
+        input:hover {
+          outline: none;
         }
         input::placeholder {
           font-family: "Manrope";
@@ -188,7 +191,8 @@
         }
         button {
           position: relative;
-          right: 40px;
+          right: 46px;
+          height: 56.3px;
           border: 0;
           padding: 14px 108px 12px;
           background: #ffffff;
@@ -202,7 +206,6 @@
           letter-spacing: 0.04em;
           text-transform: uppercase;
           color: #0c0b10;
-          height: 45px;
         }
       }
     }

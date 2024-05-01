@@ -186,51 +186,54 @@ export default function HomePage() {
             </h2>
             <button>help me plan a trip</button>
           </div>
-        </div>
+        </div>{" "}
+        <img src="/bg_strat_trip.png" alt="" className="bg_strat_trip" />
         <img className="clouds4" src="/clouds4.png"></img>
-        <div className="customise">
-          <h2>Customise your trip with us</h2>
-          <div className="f-part">
-            <img className="left-custom" src="/Group 619.svg" />
-            <div className="right-custom">
-              <div className="div-custom1">
-                <h3>Describe your dream trip</h3>
-                <p>
-                  Let us know what your perfect vacation is. Destinations,
-                  preferences, and personal interests.
-                </p>
-              </div>
-              <div className="div-custom2">
-                <h3>Get matched</h3>
-                <p>
-                  Our team will create perfect travel itinerary for you, based
-                  on your personalized needs and wishes.
-                </p>
-              </div>
-              <div className="div-custom3">
-                <h3>Book your vacation</h3>
-                <p>
-                  Confirm your trip only when you are completely satisfied with
-                  the proposed travel plan.
-                </p>
+        <div className="customise-wrapper">
+          <div className="customise">
+            <h2>Customise your trip with us</h2>
+            <div className="f-part">
+              <img className="left-custom" src="/Group 619.svg" />
+              <div className="right-custom">
+                <div className="div-custom1">
+                  <h3>Describe your dream trip</h3>
+                  <p>
+                    Let us know what your perfect vacation is. Destinations,
+                    preferences, and personal interests.
+                  </p>
+                </div>
+                <div className="div-custom2">
+                  <h3>Get matched</h3>
+                  <p>
+                    Our team will create perfect travel itinerary for you, based
+                    on your personalized needs and wishes.
+                  </p>
+                </div>
+                <div className="div-custom3">
+                  <h3>Book your vacation</h3>
+                  <p>
+                    Confirm your trip only when you are completely satisfied
+                    with the proposed travel plan.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="button-p">
-            <button>Start a trip request</button>
-            <p>It’s Free! - no credit card required</p>
+            <div className="button-p">
+              <button>Start a trip request</button>
+              <p>It’s Free! - no credit card required</p>
+            </div>
           </div>
         </div>
-
-        <img src="/bg_strat_trip.png" alt="" className="bg_strat_trip" />
-        <div className="group-620-div">
-          <img src="/Group 620.png" alt="" className="Group_620" />
-          <div className="group-620-div-form">
-            <h2>Get weekly inspiration and expert advice</h2>
-            <p>Sign up for our Weekly Newsletter</p>
-            <div className="email-space">
-              <input type="text" placeholder="Enter address" />
-              <button>Subscribe</button>
+        <div className="bg-wrapper">
+          <div className="group-620-div">
+            <img src="/Group 620.png" alt="" className="Group_620" />
+            <div className="group-620-div-form">
+              <h2>Get weekly inspiration and expert advice</h2>
+              <p>Sign up for our Weekly Newsletter</p>
+              <div className="email-space">
+                <input type="text" placeholder="Enter address" />
+                <button>Subscribe</button>
+              </div>
             </div>
           </div>
         </div>
