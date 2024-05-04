@@ -1,15 +1,19 @@
 import React from "react";
 import "./whyLuxTrips.scss";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link, Navigate, useNavigate } from "react-router-dom";
+import Card1 from "../../components/cards/Card1";
+import Card2 from "../../components/cards/Card2";
+import Card3 from "../../components/cards/Card3";
 export default function WhyLuxTrips() {
   return (
     <main>
       <div className="whyLuxTrips">
-        <div className="empty-div"></div>
-        <img src="/mountains-trips.png" alt="" className="header-img" />
-        <div className="title-wrapper">
-          <h1 className="title">why luxtrips</h1>
+          <div className='cards'>
+          <Card1/>
+          <Card2/>
+          <Card3/>
         </div>
+        <div className='empty'></div>
         <div className="bg-mid"></div>
         <div className="mainHead">
           <h1>Creating a unique experience for each client </h1>
@@ -46,7 +50,7 @@ export default function WhyLuxTrips() {
                 diverse types of villas and chalets, luxury resorts and
                 world-class hotels around the world.
               </p>
-              <button className="img-but">LUXURY PACKAGES</button>
+              <button className="img-but" ><Link className="link" to='/LuxuryPackages'>LUXURY PACKAGES</Link></button>
             </div>
           </div>
           <div className="wrapper-slider-button">
@@ -59,9 +63,18 @@ export default function WhyLuxTrips() {
               <img src="/1supercars.jpg" alt="" />
               <img src="/2hotels.jpg" alt="" />
             </div>
-            <button className="book-now">BOOK NOW</button>
+            <button className="book-now"><Link className="link" to='/BookWithUs'>BOOK NOW</Link></button>
           </div>
+        </div>      
+
+         <div className='contact'>
+            <p className='content-box first-cont'>As a Luxury Travel Designer, we make it our mission to transform clients’ interests and dreams into one-of-a-kind travel experience through the provision of premium quality services.</p>
+            <h1 className='content-box'>Importantly, in Lux Trips we get to know our clients personally, and hence, we get to have a relationship with each of them.</h1>
+            <p className='content-box'>We construct long-lasting connections thanks to the unforgettable trips we design, as we believe that travel is all about feelings, and memories are the most precious gifts we want our customer to bring back with them.
+            </p>
+            <button className='button'><Link className="link" to='/Contact'>CONTACT US</Link></button>
         </div>
+
         <div className="bg-group620"></div>
         <div className="group-620-div">
           <img src="/Group 620.png" alt="" className="Group_620" />

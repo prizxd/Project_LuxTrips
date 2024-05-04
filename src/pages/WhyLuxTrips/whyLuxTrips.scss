@@ -5,6 +5,81 @@
     position: absolute;
     z-index: 1;
   }
+  .button {
+    width: 35%;
+    height: 55px;
+    border-radius: 74px;
+    background-color: #0C0B10;
+    color: white;
+    font-family: "Forum", serif;
+    font-size: 21px;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 32.5%;
+}
+.contact{
+  p{
+    font-family: "Forum", serif;
+    font-size: 20px;
+  }
+  h1 {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #0c0b10;
+  }
+}
+  .gradient1{
+    background-image: url(../../assets/gradient.png);
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 3750px;
+}
+.contact{
+  margin-top: 500px;
+    background-image: url(../../assets/woman.png);
+    background-size: cover; 
+    height: 1700px;
+}
+.content-box{
+    width: 35%;
+    margin: auto;
+    margin-top: 50px;
+}
+.first-cont{
+    margin-top: -50px;
+    padding-top: 500px;
+}
+  .empty{
+    background-image: url('../../assets/gradient.png');
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 1186px;
+    z-index: 3;
+}
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../../assets/mountains.png");
+    background-size: cover;
+  }
+
+  .link {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
 
   .empty-div {
     padding: 10px 13px;
@@ -17,36 +92,31 @@
     position: relative;
     z-index: 4;
   }
-  .title-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .title {
     position: relative;
-    top: 245px;
-    margin-bottom: 1245px;
-
-    .title {
-      position: relative;
-      z-index: 2;
-      width: 792px;
-      font-family: "Forum";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 197.951px;
-      line-height: 129px;
-      text-align: center;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      color: #fcfcfc;
-    }
+    z-index: 4;
+    width: 792px;
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 197.951px;
+    line-height: 129px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+    padding-left: 33%;
+    padding-top: 500px;
   }
+
   .bg-mid {
-    margin-top: 240px;
+    margin-top: -5px;
     position: absolute;
     width: 100%;
-    height: 900px;
+    height: 1000px;
     background: #e2d3ce;
   }
+
   .mainHead {
     z-index: 3;
     position: relative;
@@ -64,6 +134,7 @@
       line-height: 40px;
       color: #0c0b10;
     }
+
     p {
       width: 255px;
       font-family: "Manrope";
@@ -74,16 +145,19 @@
       color: #000000;
     }
   }
+
   .stats {
     z-index: 3;
     position: relative;
   }
+
   .box-wrapper {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
     .box {
       z-index: 3;
       position: relative;
@@ -96,6 +170,7 @@
       text-align: center;
       color: #0c0b10;
     }
+
     .box1 {
       z-index: 3;
       position: relative;
@@ -110,27 +185,32 @@
       color: #000000;
     }
   }
+
   .wrapper-slider-button {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
+
   .bg-main2 {
     width: 100%;
     position: absolute;
     z-index: 3;
   }
+
   .main2 {
     z-index: 6;
     position: relative;
     padding: 50px;
+
     .text {
       width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 120px;
+
       .tx {
         margin-top: 50px;
         height: 500px;
@@ -139,6 +219,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+
         p {
           width: 255px;
           font-family: "Manrope";
@@ -148,6 +229,7 @@
           line-height: 179.8%;
           color: #000000;
         }
+
         button {
           font-family: "Forum";
           font-style: normal;
@@ -185,6 +267,7 @@
       justify-content: center;
       column-gap: 40px;
       margin-bottom: 80px;
+
       img {
         z-index: 44;
         position: relative;
@@ -193,7 +276,6 @@
         border-radius: 10px;
       }
     }
-
     .book-now {
       font-family: "Forum";
       font-style: normal;
@@ -212,15 +294,17 @@
       height: 55px;
     }
   }
+
   .bg-group620 {
     background: #e2d3ce;
     width: 100%;
-    height: 400px;
+    height: 500px;
     position: absolute;
-    margin: 280px 0px 0;
+    margin: 180px 0px 0;
   }
+
   .group-620-div {
-    margin-top: 80px;
+    margin-top: -500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -235,6 +319,7 @@
       position: absolute;
       top: 90px;
       z-index: 17;
+
       h2 {
         width: 520px;
         font-family: "Forum";
@@ -244,6 +329,7 @@
         line-height: 58px;
         color: #ffffff;
       }
+
       p {
         margin-top: 15px;
         font-family: "Manrope";
@@ -254,11 +340,13 @@
         color: #ffffff;
         margin-bottom: 60px;
       }
+
       .email-space {
         position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
+
         input {
           background: rgba(255, 255, 255, 0.14);
           padding: 13px 30px;
@@ -275,9 +363,11 @@
           margin: 0;
           outline: none;
         }
+
         input:hover {
           outline: none;
         }
+
         input::placeholder {
           font-family: "Manrope";
           font-style: normal;
@@ -286,6 +376,7 @@
           line-height: 179.8%;
           color: #0c0b10;
         }
+
         button {
           position: relative;
           right: 46px;
