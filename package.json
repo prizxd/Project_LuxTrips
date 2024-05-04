@@ -9,7 +9,7 @@
     "firebase": "firebase deploy",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "git-init-commit": "git init && git add . && git commit -m 'rework_home'"
+    "git-init-commit": "git init && git add . && git commit -m 'rework_whyLuxTrips_page'"
   },
   "dependencies": {
     "antd": "^5.14.2",

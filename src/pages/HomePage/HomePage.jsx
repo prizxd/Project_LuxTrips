@@ -186,7 +186,7 @@ export default function HomePage() {
             </h2>
             <button>help me plan a trip</button>
           </div>
-        </div>{" "}
+        </div>
         <img src="/bg_strat_trip.png" alt="" className="bg_strat_trip" />
         <img className="clouds4" src="/clouds4.png"></img>
         <div className="customise-wrapper">

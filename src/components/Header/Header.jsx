@@ -13,11 +13,10 @@ export default function header() {
           <Link to="/" className="LuxuryPackages">
             Luxury packages
           </Link>
-          <Link to="/Book" className="BookWithUs">
+          <Link to="/BookWithUs" className="BookWithUs">
             Book with us
           </Link>
-          <Link to="/" className="WhyLuxTrips">
-            {/*в процессе переноса*/}
+          <Link to="/WhyLuxTrips" className="WhyLuxTrips">
             Why Lux Trips
           </Link>
           <Link to="/Contact" className="Contact">
