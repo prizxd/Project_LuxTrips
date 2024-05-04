@@ -20,7 +20,6 @@ export default function header() {
             Why Lux Trips
           </Link>
           <Link to="/Contact" className="Contact">
-            {/*в процессе переноса*/}
             Contact
           </Link>
           <Link to="/" className="ClientArea">
