@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import Book from "./pages/Book/Book";
 import Contact from "./pages/Contact/Contact";
 import WhyLuxTrips from "./pages/WhyLuxTrips/WhyLuxTrips";
+import AdditionalPage from "./pages/AdditionalPage/AdditionalPage";
 import "./stylesDefault/reset.css";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/BookWithUs" element={<Book />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/WhyLuxTrips" element={<WhyLuxTrips />} />
+          <Route path="/add" element={<AdditionalPage />} />
         </Routes>
         <Footer />
       </div>
