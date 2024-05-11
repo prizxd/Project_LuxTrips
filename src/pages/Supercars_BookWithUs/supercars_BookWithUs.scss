@@ -1,0 +1,340 @@
+$darkNavy: #213140;
+$teal1: #f5d5ca;
+$teal2: #e2d3ce;
+$charcoal: #555555;
+$gold: #b6985a;
+
+$activeShadow: 0 0 10px rgba($teal1, 0.5);
+
+@mixin hideInput {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -9999px;
+}
+@mixin breakpoint($point) {
+  @if $point == 1100 {
+    @media (max-width: 1100px) {
+      @content;
+    }
+  } @else if $point == 800 {
+    @media (max-width: 800px) {
+      @content;
+    }
+  }
+}
+
+.additionsl-page {
+  background-color: #e2d3ce;
+  .empty-div {
+    padding: 10px 13px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    min-height: 80.56px;
+    position: relative;
+    z-index: 4;
+  }
+  .Sky {
+    width: 100%;
+    top: 0;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+  }
+  h1 {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 58px;
+    color: #0c0b10;
+  }
+  .ability {
+    column-gap: 40px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 19;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .info {
+      .info__img {
+        border-radius: 10px;
+        margin-bottom: 30px;
+      }
+      .info__subtitle {
+        width: 539px;
+        font-family: "Forum";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        color: #0c0b10;
+      }
+      .info__text,
+      .info__subtext {
+        margin-top: 20px;
+        width: 539px;
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 179.8%;
+        color: #000000;
+      }
+      .blocks {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        align-items: flex-start;
+      }
+      .block {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 35px;
+      }
+      .block__text {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+      }
+    }
+    .form {
+      form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 13px;
+      }
+      border: 0;
+      border-radius: 10px;
+      padding: 30px;
+      background-color: white;
+      select,
+      .date-input,
+      .time-input,
+      .Name input,
+      .Email input,
+      .Special_requests textarea {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #0c0b10;
+        outline: none;
+        border: 1.60979px solid #e2d3ce;
+        border-radius: 74px;
+        padding: 15px 10px 16px 28px;
+      }
+      .loc {
+        .left-side {
+          width: 50%;
+        }
+        .right-side {
+          width: 50%;
+        }
+      }
+      .location-from {
+        width: 100%;
+      }
+      .Supercar,
+      .Name,
+      .Email,
+      .Special_requests {
+        width: 100%;
+      }
+      .loc,
+      .loc2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        gap: 25px;
+      }
+      .loc2 {
+        align-items: flex-start;
+        .left-side {
+          width: 50%;
+        }
+        .right-side {
+          width: 50%;
+        }
+        .toggle {
+          user-select: none;
+          box-sizing: border-box;
+          font-size: 0;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: flex-start;
+          align-items: stretch;
+          input {
+            @include hideInput;
+          }
+          input + label {
+            font-family: "Manrope";
+            font-style: normal;
+            font-size: 20px;
+            line-height: 25px;
+            color: #79655e;
+            margin: 0;
+            padding: 0.9rem 2rem;
+            box-sizing: border-box;
+            position: relative;
+            display: inline-block;
+            border: solid 1px #ddd;
+            background-color: #fff;
+
+            line-height: 140%;
+            font-weight: 600;
+            text-align: center;
+            box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+            transition: border-color 0.15s ease-out, color 0.25s ease-out,
+              background-color 0.15s ease-out, box-shadow 0.15s ease-out;
+
+            &:first-of-type {
+              border-radius: 74px 0 0 74px;
+              border-right: none;
+            }
+            &:last-of-type {
+              border-radius: 0px 74px 74px 0px;
+              border-left: none;
+            }
+          }
+          input:hover + label {
+            border-color: $darkNavy;
+          }
+          input:checked + label {
+            background-color: $teal2;
+            color: black;
+            box-shadow: $activeShadow;
+            border-color: $teal2;
+            z-index: 1;
+          }
+          input:focus + label {
+            outline: none;
+          }
+
+          @include breakpoint(800) {
+            input + label {
+              padding: 0.75rem 0.25rem;
+              flex: 0 0 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        }
+      }
+      .third-block {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .time-input {
+          padding: 15px 10px 16px 21px !important;
+        }
+        .left-side {
+          width: 60%;
+        }
+        .right-side {
+          width: 35%;
+        }
+      }
+      .input {
+        display: flex;
+        flex-direction: column;
+        .input__text {
+          padding-left: 28px;
+          font-family: "Manrope";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 179.8%;
+          color: #79655e;
+        }
+        .input__label {
+          color: #79655e;
+        }
+      }
+      .Special_requests {
+        textarea {
+          resize: none;
+          padding: 15px 10px 16px 28px;
+          height: 150px;
+          border: 1.60979px solid #e2d3ce;
+          border-radius: 20px;
+        }
+      }
+      .button-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        .request {
+          font-family: "Forum";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 26px;
+          text-align: center;
+          letter-spacing: 0.04em;
+          text-transform: uppercase;
+          color: #ffffff;
+          width: 380px;
+          height: 55px;
+          background: #0c0b10;
+          border-radius: 74px;
+          border: 0;
+        }
+        p {
+          font-family: "Forum";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 18px;
+          text-align: center;
+          letter-spacing: 0.04em;
+          text-transform: uppercase;
+          color: #0c0b10;
+        }
+        .button-sub-block {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          button {
+            padding: 15px 28px 13px;
+            background: inherit;
+            border: 0.624428px solid #0c0b10;
+            border-radius: 61.3171px;
+            font-family: "Forum";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #0c0b10;
+          }
+        }
+      }
+    }
+  }
+}
