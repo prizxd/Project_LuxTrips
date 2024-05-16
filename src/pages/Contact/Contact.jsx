@@ -13,8 +13,6 @@ export default function Contact() {
           <div className="phone same">
             <h4 className="option">Phone</h4>
             <h2 className="p-number">+41 (078) 205 83 88</h2>
-            <h4 className="or-option">OR</h4>
-            <button className="call-back">CALL ME BACK</button>
           </div>
           <div className="address same">
             <h4 className="address-h4">Address</h4>
