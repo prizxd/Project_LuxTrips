@@ -213,3 +213,11 @@
     }
   }
 }
+.card-item {
+  transition: 0.3s;
+}
+
+.card-item:hover {
+  transform: scale(1.1);
+}
+
