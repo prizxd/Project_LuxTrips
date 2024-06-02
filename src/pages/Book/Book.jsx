@@ -34,7 +34,7 @@ export default function Book() {
                     which surrounds the site on three sides, where cliffs drop
                     vertically.
                   </p>
-                  <Link to="/">Make A Request</Link>
+                  <Link to="/Supercars">Make A Request</Link>
                 </div>
               </div>
               <div className="card-item">
@@ -45,7 +45,7 @@ export default function Book() {
                     which surrounds the site on three sides, where cliffs drop
                     vertically.
                   </p>
-                  <Link to="/">Make A Request</Link>
+                  <Link to="/Supercars">Make A Request</Link>
                 </div>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Book() {
                     which surrounds the site on three sides, where cliffs drop
                     vertically.
                   </p>
-                  <Link to="/">Make A Request</Link>
+                  <Link to="/Supercars">Make A Request</Link>
                 </div>
               </div>
               <div className="card-item">
@@ -69,7 +69,7 @@ export default function Book() {
                     which surrounds the site on three sides, where cliffs drop
                     vertically.
                   </p>
-                  <Link to="/">Make A Request</Link>
+                  <Link to="/Supercars">Make A Request</Link>
                 </div>
               </div>
               <div className="card-item">
@@ -80,7 +80,7 @@ export default function Book() {
                     which surrounds the site on three sides, where cliffs drop
                     vertically.
                   </p>
-                  <Link to="/">Make A Request</Link>
+                  <Link to="/Supercars">Make A Request</Link>
                 </div>
               </div>
             </div>

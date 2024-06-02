@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./homePage.scss";
 export default function HomePage() {
@@ -184,7 +185,7 @@ export default function HomePage() {
               We craft and plan unique itineraries tailored to customers’
               interests and with strong attention to detail.
             </h2>
-            <button>help me plan a trip</button>
+            
           </div>
         </div>
         <img src="/bg_strat_trip.png" alt="" className="bg_strat_trip" />

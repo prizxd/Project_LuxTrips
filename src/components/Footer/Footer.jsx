@@ -13,11 +13,11 @@ export default function Footer() {
           <Link to="/" className="LuxuryPackages">
             Luxury packages
           </Link>
-          <Link to="/Book" className="BookWithUs">
+          <Link to="/BookWithUs" className="BookWithUs">
             Book with us
           </Link>
           <button className="ButtonCallMe">CALL ON ME BACK</button>
-          <Link to="/" className="WhyLuxTrips">
+          <Link to="/WhyLuxTrips" className="WhyLuxTrips">
             Why Lux Trips
           </Link>
           <Link to="/Contact" className="Contact">

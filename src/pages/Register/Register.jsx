@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import "./Register.scss";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
@@ -42,9 +42,28 @@ export default function Register() {
       });
   }
   return (
+    <main>
+    <div className="bookPage">
+      <img src="/header.png" alt="" className="header-img" />
+      <div className="empty-div"></div>
+
+      <div className="center-mid-div">
+        <div className="BgMaskMid"></div>
+        <div className="wrapper-h3">
+          <h3 className="div-3-h3">Registration</h3>
+        </div>
+        <div className="Cards-div-3">
+          <div className="left-cards-3">
+            <div className="card-itemm">
+              <div className="card-p-button">
+              </div>
+            </div>
+            <div className="swrv">
+    <div className="empty-div"></div>
+    </div>
     <div>
       <form action="" className="ui-form" onSubmit={createUser}>
-        <h3>Зарегистрироваться</h3>
+        <h3>Registrate</h3>
         <div className="form-row">
           <input
             type="text"
@@ -104,10 +123,18 @@ export default function Register() {
         <p>
           <input type="submit" value="Войти" />
           <Link to="/login" className="linkText">
-            Авторизация
+          Authorization
           </Link>
         </p>
       </form>
     </div>
+           
+          </div> 
+          </div>
+        </div>
+      </div>
+  </main>
+
+   
   );
 }

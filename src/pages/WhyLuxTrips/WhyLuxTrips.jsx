@@ -50,7 +50,7 @@ export default function WhyLuxTrips() {
                 diverse types of villas and chalets, luxury resorts and
                 world-class hotels around the world.
               </p>
-              <button className="img-but" ><Link className="link" to='/LuxuryPackages'>LUXURY PACKAGES</Link></button>
+              <button className="img-but" >LUXURY PACKAGES</button>
             </div>
           </div>
           <div className="wrapper-slider-button">

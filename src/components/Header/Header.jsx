@@ -5,7 +5,7 @@ export default function header() {
   return (
     <header>
       <div className="navigation">
-        <img src="/logo.svg" alt="" className="Logo" />
+      <Link to="/"> <img src="/logo.svg" alt="" className="Logo" /></Link>
         <div className="Menu">
           <Link to="/" className="Home">
             Home

@@ -6,6 +6,8 @@ import Book from "./pages/Book/Book";
 import Contact from "./pages/Contact/Contact";
 import WhyLuxTrips from "./pages/WhyLuxTrips/WhyLuxTrips";
 import Supercars_BookWithUs from "./pages/Supercars_BookWithUs/Supercars_BookWithUs";
+import Login from "./pages/Login/Login";
+import Register from "./pages/Register/Register";
 import "./stylesDefault/reset.css";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 function App() {
@@ -19,6 +21,8 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/WhyLuxTrips" element={<WhyLuxTrips />} />
           <Route path="/Supercars" element={<Supercars_BookWithUs />} />
+          {/* <Route path="/Login" element={<Login/>}/> */}
+          <Route path="/Register" element={<Register/>}/> 
         </Routes>
         <Footer />
       </div>
